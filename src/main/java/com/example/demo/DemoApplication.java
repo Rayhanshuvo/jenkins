@@ -18,7 +18,10 @@ public class DemoApplication {
     public String getSecondMessage() {
         return "success second message";
     }
-
+    @GetMapping("/third")
+    public String getThirdMessage() {
+        return "success third message";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
