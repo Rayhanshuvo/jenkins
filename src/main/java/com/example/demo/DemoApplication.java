@@ -14,6 +14,10 @@ public class DemoApplication {
     public String getMessage() {
         return "success message";
     }
+    @GetMapping("/second")
+    public String getSecondMessage() {
+        return "success second message";
+    }
 
 
     public static void main(String[] args) {
